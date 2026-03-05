@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 .styled-list > li::before {
-    content: counter(custom-counter);
+    content: counter(custom-counter) ". ";
     font-weight: bold;
     color: black;
     font-size: 30px;
