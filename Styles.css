@@ -9,7 +9,7 @@ body {
 
 .header {
     position: relative;
-    background: url("../BMIS PROJECT/introvietfood.webp") center/cover no-repeat;
+    background: url("introvietfood.webp") center/cover no-repeat;
     height: 400px;
 }
 
