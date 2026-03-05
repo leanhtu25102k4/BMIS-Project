@@ -55,28 +55,35 @@ nav a:hover {
 
 .styled-list {
     list-style: none;
-    counter-reset: custom-counter;
+    counter-reset: item;
     padding-left: 0;
+    margin: 0;
 }
 
 .styled-list > li {
-    counter-increment: custom-counter;
+    counter-increment: item;
     margin-bottom: 15px;
     font-size: 30px;
     font-weight: bold;
-    list-style-position: inside;
+    position: relative;
 }
 
 .styled-list > li::before {
-    content: counter(custom-counter) ". ";
+    content: counter(item) ". ";
     font-weight: bold;
     color: black;
     font-size: 30px;
 }
 
 .styled-list ul {
-    list-style: none;     
+    list-style: none;
+    margin-top: 5px;
     margin-left: 30px;
+    padding-left: 0;
+    font-size: 20px;
     font-weight: normal;
-    padding-left: 0;     
+}
+
+.styled-list ul li {
+    margin-bottom: 5px;
 }
