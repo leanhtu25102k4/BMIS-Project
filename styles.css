@@ -46,8 +46,8 @@ nav a:hover {
     font-size: 30px;
 }
 .section img {
-    width: 100%;
-    height: auto;
+    width: 600;
+    height: 400;
     border-radius: 10px;
     margin-top: 10px;
     box-shadow: 0px 4px 10px black;
