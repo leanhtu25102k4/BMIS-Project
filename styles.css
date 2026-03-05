@@ -60,30 +60,23 @@ nav a:hover {
     margin: 0;
 }
 
-.styled-list > li {
-    counter-increment: item;
-    margin-bottom: 15px;
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-}
-
-.styled-list > li::before {
-    content: counter(item) ". ";
-    font-weight: bold;
-    color: black;
-    font-size: 30px;
+.styled-list {
+  list-style-type: decimal;      
+  list-style-position: inside;   
+  padding-left: 0;
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .styled-list ul {
-    list-style: none;
-    margin-top: 5px;
-    margin-left: 30px;
-    padding-left: 0;
-    font-size: 20px;
-    font-weight: normal;
+  list-style: none;              
+  margin-left: 30px;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .styled-list ul li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
